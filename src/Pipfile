@@ -1,0 +1,16 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+aws-cdk-lib = "==2.17.0"
+constructs = "*"
+requests = "*"
+
+[dev-packages]
+pytest = "*"
+awscli = "*"
+
+[requires]
+python_version = "3.8"
